@@ -1,0 +1,66 @@
+h1 {
+    color: royalblue;
+    font-style: inherit;
+    font-size: 30pt;
+  }
+  
+  .grid {
+    border-inline-end-width: 250pt;
+    border-width: 250pt;
+    border: dotted;
+  }
+  
+  #unique {
+    border: solid gold;
+    background-color: darkkhaki;
+    box-shadow: limegreen;
+  }
+  
+  .flex-container{
+    display: flex;
+    height: 500px;
+    width: 500px;
+  
+    background-color: blue;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+   }
+  
+  .felso {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: auto;
+  }
+   
+  .center {
+    flex-direction: row;
+    align-self: center;
+  } 
+  
+  .also {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+  
+  }
+
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  
+  
